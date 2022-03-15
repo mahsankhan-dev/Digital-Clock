@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100&family=PT+Sans:ital@1&family=Roboto&display=swap");
+body {
+  background-color: #000;
+  font-family: sans-serif;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 350px;
+  height: 300px;
+  color: green;
+  border-radius: 10px;
+  background-color: #000;
+  -webkit-box-shadow: inset 0px 0px 10px 1px green;
+  box-shadow: inset 0px 0px 10px 1px green;
+  font-size: 40px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.clock1 button {
+  color: green;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 10px;
+  font-size: 16px;
+  font-family: "PT Sans", sans-serif;
+  cursor: pointer;
+  transition: 0.5s ease;
+  -webkit-box-shadow: inset 0px 0px 10px 1px green;
+  box-shadow: inset 0px 0px 10px 1px green;
+}
+.clock1 button:hover {
+  color: #000;
+  background-color: green;
+}
+.main p {
+  font-size: 30px;
+}
+.wrapper button {
+  position: relative;
+  bottom: 20px;
+}
+::selection {
+  color: white;
+}
